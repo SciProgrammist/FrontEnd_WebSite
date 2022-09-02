@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- Barra de navegacion -->
+    <!--- Barra de navegacion -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="../pages/Index.html"><img src="../img/SkateLogo.png"></a>
@@ -22,18 +22,44 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a class="nav-link" href="#">Inicio</a> 
+                    <li class="nav-item"> <a class="nav-link" href="#">Inicio</a>
                     </li>
-                     <li class="nav-item"> <a class="nav-link" href="#">Tienda</a> 
+                    <li class="nav-item"> <a class="nav-link" href="#">Tienda</a>
                     </li>
-                     <li class="nav-item"> <a class="nav-link" href="#">SkateBoarding El Salvador</a> 
+                    <li class="nav-item"> <a class="nav-link" href="#">SkateBoarding El Salvador</a>
                     </li>
-                     <li class="nav-item"> <a class="nav-link" href="#">Informacion</a> 
+                    <li class="nav-item"> <a class="nav-link" href="#">Informacion</a>
                     </li>
                 </ul>
             </div>
 
         </div>
     </nav>
+    <!--- carrusel de imagenes -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center"><img src="../img/Carousel_item11.jpg">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">El mundo del Skateboarding</h1>
+                        <h3 class="text-danger">Explicado por Maria Torres</h3>
+                        <button type="button" class="btn btn-outline-light btn.lg">Uso del SkateBoard</button>
+                    </div>
+                </div>
 
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center"><img src="../img/Carousel_item22.jpg"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center"><img src="../img/Carousel_item33.jpg"></div>
+            </div>
+        </div>
+
+    </div>
 </body></html>

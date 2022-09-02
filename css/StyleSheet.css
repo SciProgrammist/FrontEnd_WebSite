@@ -16,6 +16,11 @@
 /*Estilos CSS y CSS avanzado*/
 
 /*imagen de fondo fija*/
+
+*{
+    background-color: navy;
+}
+
 figure {
     position: relative;
     width: 100%;
