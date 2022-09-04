@@ -1,6 +1,14 @@
 /*Fuente para algunos textos*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/*Uso de layout responsivo*/
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+/*Estilos generales a la pagina.*/
 html,
 body {
     height: 100%;
@@ -9,6 +17,9 @@ body {
     color: #222;
 }
 
+p.historia, p.finalp{
+    text-align: justify;
+}
 .navbar {
     padding: .8rem;
 }
@@ -29,22 +40,135 @@ body {
 .carousel-caption {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);  
+    transform: translateY(-50%);
 }
 
-.carousel.caption h1{
-    font-size: 500%;
+.carousel-caption h2 {
+    font-size: 200%;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
+    font-weight: bold;
+    background: violet;
+
 }
-/*Uso de layout responsivo*/
-@media (max-width: 992px) {}
 
-@media (max-width: 768px) {}
+.carousel-caption h3 {
+    font-size: 100%;
+    font-weight: 500;
+    background-color: darkorange;
+    padding-bottom: 1 rem;
+}
 
-@media (max-width: 576px) {}
+.btn-primary {
+    background-color: chartreuse;
+    border: 1px solid black;
 
-/*Estilos CSS y CSS avanzado*/
+}
+
+.btn-primary:hover {
+    background-color: purple;
+    border: 1px solid aqua;
+}
+
+.resaltado {
+    padding: 1 rem;
+    text-align: justify;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2 rem;
+}
+
+.welcome hr {
+    border-top: 2px solid black;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/*--Dando color a las fuentas awesome utilizadas como iconos en la parte de ¡Nota!--*/
+.fa-tint {
+    color: blue;
+}
+
+.fa-bed {
+    color: lightblue;
+}
+
+.fa-heartbeat {
+    color: red;
+}
+
+.fa-tint,
+.fa-bed,
+.fa-heartbeat {
+    font-size: 4em;
+    margin: 1 rem;
+    padding-bottom: 10px;
+}
+
+/*--Estilos de la parte del gif de trucos escondido--*/
+.btnTrucos {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/*Social media icons css*/
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+
+}
+
+.fa-facebook {
+    color: #3d5998;
+}
+
+.fa-twitter {
+    color: #00ACED;
+}
+
+.fa-github {
+    color: #000000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-github:hover {
+    color: #D5D5D5;
+}
+
+/*--Estilo del footer--*/
+footer {
+    background-color: #3F3F3F;
+    color: #D5D5D5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #D5D5D5;
+    border-width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #D5D5D5;
+}
+
+hr.light-Derechos {
+    border-top: 1px solid #D5D5D5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
 
 /*imagen de fondo fija*/
 
@@ -66,7 +190,7 @@ figure {
 }
 
 #fixed {
-    background-image: url('../img/skateboarding-park-skateboard-skateboarder.jpg');
+    background-image: url('../img/SkateParkMexicanos_SV.jpeg');
     position: fixed;
     display: block;
     top: 0;
