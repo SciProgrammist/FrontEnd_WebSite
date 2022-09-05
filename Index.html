@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>¡Skatebording El Salvador!</title>
+    <link rel="icon" href="img/SkateLogo.png">
     <link href="Boostrap_files/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/StyleSheet.css" rel="stylesheet">
     <script src="Boostrap_files/js/bootstrap.min.js"></script>
@@ -14,10 +15,11 @@
 </head>
 
 <body>
+
     <!--- Barra de navegacion -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../pages/Index.html"><img src="../img/SkateLogo.png"></a>
+            <a class="navbar-brand" href="/Index.html"><img src="img/SkateLogo.png"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,219 +27,224 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link active" href="../pages/Index.html">Inicio</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">SkateBoarding El Salvador</a>
+                    <li class="nav-item"> <a class="nav-link" href="#">Historia del SkateBoarding</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Informacion</a>
+                    <li class="nav-item"> <a class="nav-link" href="#">Palabras finales</a>
                     </li>
                 </ul>
             </div>
-
         </div>
     </nav>
-    <!--- carrusel de imagenes -->
-
-    <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!-- <div class="d-flex justify-content-center">  </div>-->
-                <img src="../img/../img/Carousel_item33.jpg" class="d-block w-100" alt="Imagen de Patinador">
-                <div class="carousel-caption d-nonde d-md-block">
-                    <h2 class="display-2 ">El mundo del Skateboarding</h2>
-                    <h3>Explicado por Maria Torres</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">Uso del SkateBoard</button>
-
-                    <button type="button" class="btn btn-primary btn-lg">Comienza</button>
+    <section>
+        <!--- carrusel de imagenes -->
+        <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/Carousel_item33.jpg" class="d-block w-100" alt="Imagen de Patinador">
+                    <div class="carousel-caption d-nonde d-md-block">
+                        <h2 class="display-2 ">El mundo del Skateboarding</h2>
+                        <h3>Explicado por Maria Torres</h3>
+                        <a href="https://youtu.be/emQfxE1nPmI" target="_blank"><button type="button" class="btn btn-outline-light btn-lg">kickFlip</button></a>
+                        <a href="#"><button type="button" class="btn btn-primary btn-lg">Experiencias</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/Carousel_item22.jpg" class="d-block w-100" alt="Imagen de Patinador">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/Carousel_item11.jpg" class="d-block w-100" alt="Imagen de Patinador">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="../img/../img/Carousel_item22.jpg" class="d-block w-100" alt="Imagen de Patinador">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../img/../img/Carousel_item11.jpg" class="d-block w-100" alt="Imagen de Patinador">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!--- Seccion resaltada: para llamar la atencion sobre la informacion que se encuentra en este elemento -->
-    <div class="container-fluid resaltado">
-
-        <!--- Controlando el numero de columnas con respecto al tamaño del dispositivo-->
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead">El Skateboarding es un deporte extremo el cual se debe de tener las protecciones adecuadas al momento de practicarlo.</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Ver Trucos</button></a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-    </div>
-    <!--- Seccion de bienvenida -->
-    <div class="container-fluid padding">
-        <div class="row welcome text-center">
-            <div class="col-12">
-                <h1 class="display-4">¡Toma Nota!</h1>
+        <!--- Seccion resaltada: para llamar la atencion sobre la informacion que se encuentra en este elemento -->
+        <div class="container-fluid resaltado">
+
+            <!--- Controlando el numero de columnas con respecto al tamaño del dispositivo-->
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">El Skateboarding es un deporte extremo el cual se debe de tener las protecciones adecuadas al momento de practicarlo.</p>
             </div>
-            <hr>
-            <div class="col-12">
-                <p class="lead">Los deportes de riesgo consisten en actividades realizadas en condiciones muy difíciles o extremas por especialistas con una adecuada preparación física y técnica. Sin embargo, cada vez son más practicados por inexpertos como simples pasatiempo o hobbie, lo que supone un peligro real para la integridad física de quienes lo realizan.</p>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Ver Trucos</button></a>
             </div>
 
         </div>
-    </div>
-    <!--- Seccion de 3 columnas "Los equipos importantes al patinas"-->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <!--- Se utilizara la libreria de fuentes awesome para añadir unos iconos"-->
-                <i class="fas fa-tint"></i>
-                <h3>Hidratación</h3>
-                <p>Mantenerse hidratado, durante el patinage por la exposicion al sol.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <i class="fas fa-bed"></i>
-                <h3>Descanso</h3>
-                <p>Descansar es vital para mantenerse atento a cualquier evento que nos pueda suceder.</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <i class="fas fa-heartbeat"></i>
-                <h3>Salud</h3>
-                <p>La buena salud no mantiene con energias y capaces de disfrutar de nuestras actividades.</p>
-            </div>
-        </div>
-        <hr class="my-4">
-    </div>
-    <!-- Seccion de dos columnas con la historia del Skateboarding-->
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-lg-6">
-                <h2> Historia del Skateboarding</h2>
-                <p class="historia">Los años 80 supusieron el nacimiento del Skate Moderno, tal y como lo conocemos hoy en día. Se empezó a evolucionar muchísimo en cuento a material y trucos. El Vert era la disciplina más popular, pero a finales de los 80 el street empieza a crecer mucho también.</p>
 
-                <p class="historia">Podemos decir que los años 80 fueron una de las épocas doradas del patín. Fue la década en la que surgieron marcas míticas como Powell Peralta, Vision, Santa Cruz, Independent, etc</p>
-
-                <p class="historia">Los 80 coincidieron con el auge del video VHS y los videos de skate hicieron que la popularidad del patín alcanzara cotas internacionales. Mucha culpa de esto la tiene la Bones Brigade, uno de los equipos más legendarios que ha habido y cuyos videos supusieron un antes y un después en la difusión del skateboarding. Proliferan tiendas de skate en todas las ciudades y, con ellas, una legión de jóvenes patinadors.</p>
-
-                <p class="historia">En dicho equipo había leyendas tales como Tony Hawk, Steve Caballero, Rodney Mullen, Lance Mountain, Stacy Peralta, Mike McGill, etc. Nombre muy conocidos aún a día de hoy y muchos de ellos en activo. También hay que recordar las tablas de aquellos días. Las que hoy conocemos como old school, con unos gráficos increibles que también ayudaron a despertar el interés por el skate. </p>
-                <br>
-                <a href="https://www.fillow.net/blog/2017/03/historia-del-skate/#Historia_del_Skate" target="_blank" class="btn btn-primary">Aprende más...</a>
-            </div>
-
-            <div class="col-md-12 col-lg-6">
-                <br>
-                <img src="../img/skateboarding-park-skateboard-skateboarder.jpg" class="img-fluid">
-            </div>
-        </div>
-    </div>
-    <hr class="my-4">
-    <!--Fondo de la pagina fijo-->
-    <figure>
-        <div class="fixed-wrap">
-            <div id="fixed"></div>
-        </div>
-    </figure>
-    <!-- Secretos-->
-    <!-- <div class="d-flex justify-content-center">  </div>-->
-    <button class="btnTrucos" type="button" data-bs-toggle="collapse" data-bs-target="#giftrucos">¡Click! para ver unos trucos
-    </button>
-    <div id="giftrucos" class="collapse multi-collapse ">
+        <!-- Seccion de dos columnas con la historia del Skateboarding-->
         <div class="container-fluid padding">
-            <div class="d-flex justify-content-center">
-                <div class="col-sm-6 col-md-3">
-                    <!-- Agregar etiqueta de video y el video-->
-                    <img class="gif" src="../img/Truco02.webp">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h2> Historia del Skateboarding</h2>
+                    <p class="historia">Los años 80 supusieron el nacimiento del Skate Moderno, tal y como lo conocemos hoy en día. Se empezó a evolucionar muchísimo en cuento a material y trucos. El Vert era la disciplina más popular, pero a finales de los 80 el street empieza a crecer mucho también.</p>
+
+                    <p class="historia">Podemos decir que los años 80 fueron una de las épocas doradas del patín. Fue la década en la que surgieron marcas míticas como Powell Peralta, Vision, Santa Cruz, Independent, etc</p>
+
+                    <p class="historia">Los 80 coincidieron con el auge del video VHS y los videos de skate hicieron que la popularidad del patín alcanzara cotas internacionales. Mucha culpa de esto la tiene la Bones Brigade, uno de los equipos más legendarios que ha habido y cuyos videos supusieron un antes y un después en la difusión del skateboarding. Proliferan tiendas de skate en todas las ciudades y, con ellas, una legión de jóvenes patinadors.</p>
+
+                    <p class="historia">En dicho equipo había leyendas tales como Tony Hawk, Steve Caballero, Rodney Mullen, Lance Mountain, Stacy Peralta, Mike McGill, etc. Nombre muy conocidos aún a día de hoy y muchos de ellos en activo. También hay que recordar las tablas de aquellos días. Las que hoy conocemos como old school, con unos gráficos increibles que también ayudaron a despertar el interés por el skate. </p>
+                    <br>
+                    <a href="https://www.fillow.net/blog/2017/03/historia-del-skate/#Historia_del_Skate" target="_blank" class="btn btn-primary">Aprende más...</a>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!--Informacion sobre los desarrolladores -->
-    <div class="container-fluid padding">
-        <div class="row welcome text-center">
-            <div class="col-12">
-                <h1 class="display-4">¡Nuestra experiencia con el Skateboarding!</h1>
-            </div>
-            <hr>
-        </div>
-    </div>
-    <!--Descripciones-->
-    <div class="container-fluid padding">
-        <!--    <div class="d-flex  justify-content-around"></div>-->
-        <div class="row padding justify-content-around">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="../img/me.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">Daniel Pineda</h4>
-                        <p class="card-text">Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta. Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta.</p>
-                        <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
-                    </div>
+
+                <div class="col-md-12 col-lg-6">
+                    <br>
+                    <img src="../img/skateboarding-park-skateboard-skateboarder.jpg" class="img-fluid">
                 </div>
-            </div>
-            <br>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="../img/we.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">Maria Torres</h4>
-                        <p class="card-text">Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta. Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta.</p>
-                        <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
-                    </div>
-                </div>
-            </div>
-       
-        </div>
-    </div>
-    <!--Descripcion con division de dos columnas-->
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-lg-6">
-                <h2>Palabras finales</h2>
-                <p class="finalp">balbaasklas casd casldkcjas dclkasjd calñskd jcaslñkdcj asdñlcajs dclaksdj calñskc aslkdjc asdlcajs dcñlasdc ajsñldc.</p>
-                <p class="finalp">alsdkjasldck asdlñckasjd cñlaksdj calñskdvjasldv asdlvja sñdvlkasd vjñlaskdvj asldkvja sdñlvaks jdvlñas jaslvkj as</p>
-                <br>
-            </div>
-            <div class="col-lg-6"><img src="../img/weejpg.jpg" class="img-fluid">
             </div>
         </div>
         <hr class="my-4">
-    </div>
-    <!--Redes sociales penultima parte-->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-12">
-                <h2>Desarrolla o patina con nosotros</h2>
-            </div>
-            <div class="col-12 social padding">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+
+        <!--Informacion sobre los desarrolladores -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">¡Nuestra experiencia con el Skateboarding!</h1>
+                </div>
+                <hr>
             </div>
         </div>
-    </div>
+
+        <!--Descripciones-->
+        <div class="container-fluid padding">
+            <!--    <div class="d-flex  justify-content-around"></div>-->
+            <div class="row padding justify-content-around">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/me.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Daniel Pineda</h4>
+                            <p class="card-text">Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta. Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta.</p>
+                            <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/we.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Maria Torres</h4>
+                            <p class="card-text">Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta. Aquí vamos a escribir una breve descripción sobre las cosas que nos gusta.</p>
+                            <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--- Seccion de Notas sobre el SkateBoarding -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">¡Toma Nota!</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">Los deportes de riesgo consisten en actividades realizadas en condiciones muy difíciles o extremas por especialistas con una adecuada preparación física y técnica. Sin embargo, cada vez son más practicados por inexpertos como simples pasatiempo o hobbie, lo que supone un peligro real para la integridad física de quienes lo realizan.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!--- Seccion de 3 columnas "Los equipos importantes al patinar"-->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <!--- Se utilizara la libreria de fuentes awesome para añadir unos iconos"-->
+                    <i class="fas fa-tint"></i>
+                    <h3>Hidratación</h3>
+                    <p>Mantenerse hidratado, durante el patinage por la exposicion al sol.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-bed"></i>
+                    <h3>Descanso</h3>
+                    <p>Descansar es vital para mantenerse atento a cualquier evento que nos pueda suceder.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Salud</h3>
+                    <p>La buena salud no mantiene con energias y capaces de disfrutar de nuestras actividades.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Fondo de la pagina fijo-->
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed"></div>
+            </div>
+        </figure>
+
+        <!-- Secretos-->
+        <!-- <div class="d-flex justify-content-center">  </div>-->
+        <button class="btnTrucos" type="button" data-bs-toggle="collapse" data-bs-target="#giftrucos">¡Click! para ver unos trucos
+        </button>
+        <div id="giftrucos" class="collapse multi-collapse ">
+            <div class="container-fluid padding">
+                <div class="d-flex justify-content-center">
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="../img/Truco02.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Descripcion con division de dos columnas-->
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h2>Palabras finales</h2>
+                    <p class="finalp">balbaasklas casd casldkcjas dclkasjd calñskd jcaslñkdcj asdñlcajs dclaksdj calñskc aslkdjc asdlcajs dcñlasdc ajsñldc.</p>
+                    <p class="finalp">alsdkjasldck asdlñckasjd cñlaksdj calñskdvjasldv asdlvja sñdvlkasd vjñlaskdvj asldkvja sdñlvaks jdvlñas jaslvkj as</p>
+                    <br>
+                </div>
+                <div class="col-lg-6"><img src="/img/weejpg.jpg" class="img-fluid">
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
+        <!--Redes sociales penultima parte-->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Desarrolla o patina con nosotros</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://www.facebook.com/SciThink3rd" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/SciProgrammist" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Footer-->
     <footer>
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="../img/SkateLogo.png">
+                    <img src="/img/SkateLogo.png">
                     <hr class="light">
                     <p>TM210066@alumno.udb.edu.sv</p>
                     <p>RP191495@alumno.udb.edu.sv</p>
