@@ -62,7 +62,7 @@
         display: none;
     }
 
-    .displar-4 {
+    .display-4 {
         font-size: 160%;
         padding: 1.2rem;
     }
@@ -159,6 +159,16 @@ p.finalp {
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
+}
+
+.card-text {      
+text-align: justify;
+}
+
+/* carousel */
+.carousel-item{
+  width: 100%;
+  height: 500px;
 }
 
 /*--Dando color a las fuentas awesome utilizadas como iconos en la parte de ¡Nota!--*/
